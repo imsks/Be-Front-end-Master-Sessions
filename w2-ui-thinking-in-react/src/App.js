@@ -14,8 +14,9 @@ const App = () => {
     return (
         <div className='App'>
             <section className='app__container'>
+                <h1 class='text-3xl font-bold underline'>Hello world!</h1>
                 <div className='app__container__content'>
-                    <div className='cards'>
+                    <div className='my-12 mx-4 flex flex-wrap gap-1'>
                         {products.map((product, key) => {
                             const { title, price, description, image } = product
                             return (

@@ -45,12 +45,6 @@
 
 }
 
-.cards {
-  margin: 2rem 4rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
 
 @media screen and (max-width: 600px) {
   .cards {
@@ -59,31 +53,6 @@
     flex-wrap: wrap;
     gap: 1rem;
   }
-}
-
-.cards__item {
-  flex: 1;
-}
-
-.cards__item__container {
-  border: 1px solid grey;
-      max-width: 14rem;
-}
-
-.cards__item__container__content {
-  padding: 0.5rem;
-}
-
-.cards__item__container__content__image {
-  width: 10rem;
-}
-
-.cards__item__container__content__title {
-  overflow: hidden;
-}
-
-.cards__item__container__content__description {
-  overflow: hidden;
 }
 
 .cards__item__container__content__price {
